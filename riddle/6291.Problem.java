@@ -1,3 +1,5 @@
+problem link-https://www.spoj.com/problems/PROBLEM/
+
 /* package whatever; // don't place package name! */
 
 import java.util.*;
