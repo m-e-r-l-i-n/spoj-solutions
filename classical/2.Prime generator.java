@@ -1,3 +1,5 @@
+problem link-https://www.spoj.com/problems/PRIME1/
+
 /* package codechef; // don't place package name! */
 
 import java.util.*;
