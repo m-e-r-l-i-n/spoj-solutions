@@ -1,3 +1,5 @@
+problem link-https://www.spoj.com/problems/TEST/
+
 import java.util.*;
 import java.io.*;
 
