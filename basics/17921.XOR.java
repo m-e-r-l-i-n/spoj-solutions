@@ -1,3 +1,5 @@
+problem link-https://www.spoj.com/problems/BSCXOR/
+
 import java.util.*;
 import java.lang.*;
 
