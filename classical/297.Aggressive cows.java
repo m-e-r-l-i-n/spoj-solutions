@@ -27,25 +27,25 @@ class Ideone
 	
 	static int binsearch(int a[],int c)
 	{
-    int ini=0,last=a[a.length-1],max=-1;
-    while(last>ini)
-    {
-        int mid=(ini+last)/2;
-        if(func(mid,a,c)==1)
-        {
-            if(mid>max) max=mid;
-            ini=mid+1;
-        }
+    	int ini=0,last=a[a.length-1],max=-1;
+    	while(last>ini)
+    	{
+            int mid=(ini+last)/2;
+       	    if(func(mid,a,c)==1)
+            {
+            	if(mid>max) max=mid;
+            	ini=mid+1;
+            }
         else last=mid;
-    }
-    return max;
+    	}
+    	return max;
 	}
 	
 	static int func(int n,int a[],int c)
 	{
-    int cows=1,pos=a[0],i;
-    for (i=1;i<a.length;i++)
-    {
+    	int cows=1,pos=a[0],i;
+    	for(i=1;i<a.length;i++)
+    	{
         if(a[i]-pos>=n)
         {
             pos=a[i];
@@ -53,8 +53,8 @@ class Ideone
             if(cows==c)
                 return 1;
         }
-    }
-    return 0;
+    	}
+    	return 0;
 	}
 	
 }
