@@ -1,7 +1,5 @@
 problem link-https://www.spoj.com/problems/LCA/
 
-//problem specifically designed for c++ only(other languages wont pass the given time limit)
-
 #include<bits/stdc++.h>
 using namespace std;
 int main()
